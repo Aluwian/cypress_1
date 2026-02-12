@@ -1,0 +1,30 @@
+{
+  "name": "cypress_1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Aluwian/cypress_1#readme",
+  "bugs": {
+    "url": "https://github.com/Aluwian/cypress_1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aluwian/cypress_1.git"
+  },
+  "license": "ISC",
+  "author": "Anna Bystrova",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:laptop:headed": "cypress run --browser chrome --env device=laptop --headed",
+    "cy:laptop:headless": "cypress run --browser chrome --env device=laptop --headless",
+    "cy:mobile:headed": "cypress run --browser chrome --env device=mobile --headed",
+    "cy:mobile:headless": "cypress run --browser chrome --env device=mobile --headless"
+  },
+  "dependencies": {
+    "cypress": "^15.10.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
