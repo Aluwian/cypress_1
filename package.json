@@ -18,8 +18,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:laptop:headed": "cypress run --browser chrome --env device=laptop --headed",
     "cy:laptop:headless": "cypress run --browser chrome --env device=laptop --headless",
-    "cy:mobile:headed": "cypress run --browser chrome --env device=mobile --headed",
-    "cy:mobile:headless": "cypress run --browser chrome --env device=mobile --headless"
+    "cy:mobile:headed": "cypress run --browser firefox --env device=mobile --headed",
+    "cy:mobile:headless": "cypress run --browser firefox --env device=mobile --headless"
   },
   "dependencies": {
     "cypress": "^15.10.0"

@@ -1,5 +1,3 @@
-const SESSION_ID = "d5ac266f-3d33-4cf4-9f77-c35dbc14b8cf";
-
 describe('Успешная загрузка страницы', () => {
   it('passes', () => {
     cy.visit('/')
